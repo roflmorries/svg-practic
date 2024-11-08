@@ -1,0 +1,68 @@
+body {
+  background: #000;
+}
+
+.figures__block {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  animation: square-anim 2s infinite alternate;
+}
+
+.rectangle {
+  animation: rectangle-anim 2s infinite alternate;
+}
+
+.circle {
+  animation: circle-anim 2s infinite alternate;
+}
+
+.ellipse {
+  animation: ellipse-anim 2s infinite alternate;
+}
+
+@keyframes ellipse-anim {
+  0% {
+    fill: darkcyan;
+    stroke: pink;
+  }
+  100% {
+    fill: pink;
+    stroke: darkcyan;
+  }
+}
+@keyframes circle-anim {
+  0% {
+    fill: purple;
+    stroke: palevioletred;
+  }
+  100% {
+    fill: palevioletred;
+    stroke: purple;
+  }
+}
+@keyframes square-anim {
+  0% {
+    fill: orange;
+    stroke: red;
+  }
+  100% {
+    fill: red;
+    stroke: orange;
+  }
+}
+@keyframes rectangle-anim {
+  0% {
+    fill: green;
+    stroke: yellow;
+  }
+  100% {
+    fill: yellow;
+    stroke: green;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
